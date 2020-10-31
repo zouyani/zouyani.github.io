@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./js/bootstrap-4.4.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <script src="./js/jquery-3.4.1.js"></script>
+  <script src="./js/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+  <title>关于</title>
+  <style>
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .img {
+      width: 40%;
+    }
+    
+    .img img {
+      border-radius: 0;
+    }
+    
+    .txt {
+      width: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-light navbar-light" style="padding: 0 100px;">
+    <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" class="img-responsive"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link " href="./index.html">首页</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./fight.html">共同战"疫"</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./news.html">云赏春</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./spring.html">湘大之春</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  cur" href="./about.html">关于</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="content">
+      <div class="img"><img src="./img/about.jpg" alt="" class="img-responsive"></div>
+      <div class="txt">
+        <p>本次参赛作品由我一人完成，所以可能在页面美观度或页面实现上有所欠缺，烦请各位老师多多指教和帮助。</p>
+        <p>在查找本次参赛作品资料时，我也对新冠病毒有了更深层次的了解，深感一线抗疫人员的不易，也认识到中国在抗疫方面的速度和团结，再一次认识到祖国的强大，也感到作为中国人的骄傲与自豪。</p>
+        <p>灾难虽巨大，但压不垮英勇的中国人民。</p>
+        <p>寒冬再漫长，也阻挡不了春天的脚步。</p>
+        <p>大江流日夜，慷慨歌未央。2020年的中国抗疫，在中华民族史册、人类发展史册上写下悲壮雄浑的篇章。</p>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">邹娅妮</h4>
+            <p class="card-text">2017计算机科学与技术2班</p>
+            <a href="#" class="card-link card-link-qq" s>QQ</a>
+            <a href="#" class="card-link card-link-tel">电话</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="copy-right">湘潭大学兴湘学院 17计算机科学与技术2班 邹娅妮</div>
+  </footer>
+  <script>
+    $(".card-link-qq").click(function() {
+      alert("3224154419")
+    });
+    $(".card-link-tel").click(function() {
+      alert("17369367822")
+    })
+  </script>
+</body>
+
+</html>
